@@ -35,7 +35,7 @@ class App extends Component {
             </div>
           </form>
 
-          <form action="https://search.lib.umich.edu/everything" method="get" className="y-spacing">
+          <form action="https://guides.lib.umich.edu/srch.php" method="get" className="y-spacing">
             <Heading size="large" level={2}>Search Research Guides</Heading>
 
             <p className="text">Use to find research resources and help guides created by Library experts (Ann Arbor).</p>
@@ -44,7 +44,7 @@ class App extends Component {
                 labelText="Search Research Guides"
                 hideLabel
                 placeholder="Find research resources, help guides, and more"
-                name="query"
+                name="q"
               />
               <Button type="submit">Search</Button>
             </div>
