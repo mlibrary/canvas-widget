@@ -1,0 +1,13 @@
+.canvas-widget-app {
+  padding: 1rem;
+  max-width: 34rem;
+  margin: 0 auto;
+}
+
+.library-logo-svg {
+  max-width: 14rem;
+}
+
+.text {
+  max-width: 30em;
+}
