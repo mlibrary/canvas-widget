@@ -24,7 +24,11 @@
   .canvas-widget-app__header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  .canvas-widget-app__header .chat {
+    padding: 0.3rem 0.75rem;
   }
 }
 
