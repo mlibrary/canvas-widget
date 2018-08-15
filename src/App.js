@@ -122,25 +122,6 @@ class App extends Component {
             </div>
           </form>
         </main>
-
-        <footer className="margin-top-two" role="complementary" aria-labelledby="additional-links">
-      		<Heading id="additional-links" size="medium" level={2}>Additional links</Heading>
-
-      		<ul>
-      			<li>
-      				<a href="https://lib.umich.edu">University Library</a>
-      			</li>
-      			<li>
-      				<a href="https://www.lib.umich.edu/ask-librarian">Ask a Librarian</a>
-      			</li>
-      			<li>
-      				<a href="https://www.lib.umich.edu/hours">Hours</a>
-      			</li>
-      			<li>
-      				<a href="https://www.lib.umich.edu/libraries-and-departments">Locations</a>
-      			</li>
-      		</ul>
-      	</footer>
       </div>
     );
   }
