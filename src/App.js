@@ -5,23 +5,26 @@ import './index.css'
 import {
   Heading,
   Button,
-  TextInput
+  TextInput,
+  Chat
 } from 'umich-lib-components-react'
 
 class App extends Component {
   render() {
     return (
       <div className="canvas-widget-app">
-        <header role="banner">
+        <header role="banner" className="canvas-widget-app__header">
           <a href="https://lib.umich.edu/">
             <Logo />
           </a>
+
+          <Chat />
         </header>
 
         <main role="main" aria-labelledby="library-canvas-widget">
           <Heading id="library-canvas-widget" size="large" level={1} className="visually-hidden">Library Canvas Widget</Heading>
 
-          <form action="https://search.lib.umich.edu/everything" method="get" className="y-spacing">
+          <form action="https://search.lib.umich.edu/everything" method="get" className="y-spacing" role="search">
             <Heading size="large" level={2}>Library Everything Search</Heading>
             <p className="text">Use to see a broad sampling of results and to explore specific areas and records in greater detail.</p>
             <div className="x-spacing layout-flex">
@@ -35,7 +38,7 @@ class App extends Component {
             </div>
           </form>
 
-          <form action="https://guides.lib.umich.edu/srch.php" method="get" className="y-spacing">
+          <form action="https://guides.lib.umich.edu/srch.php" method="get" className="y-spacing" role="search">
             <Heading size="large" level={2}>Search Research Guides</Heading>
 
             <p className="text">Use to find research resources and help guides created by Library experts (Ann Arbor).</p>
