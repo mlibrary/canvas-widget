@@ -81,16 +81,15 @@ class App extends Component {
             onSubmit={this.handleLibrarySearchSubmit}
           >
             <Heading size="large" level={2}>Library Everything Search</Heading>
-            <p className="text">Use to see a broad sampling of results and to explore specific areas and records in greater detail.</p>
+            <p className="text">See results from the U-M Library catalog, articles, databases, online journals, and the library website.</p>
             <div className="x-spacing layout-flex layout-flex-start">
               <TextInput
                 id="library-search"
-                labelText="Library Search"
+                labelText="Library Everything Search"
                 hideLabel
                 value={librarySearchQuery}
                 invalid={librarySearchInvalid}
                 invalidText={librarySearchInvalidText}
-                placeholder="Find articles, books, and more"
                 name="query"
                 onChange={this.handleLibrarySearchQueryChange}
               />
@@ -105,18 +104,17 @@ class App extends Component {
             role="search"
             onSubmit={this.handleLibGuideSubmit}
           >
-            <Heading size="large" level={2}>Search Research Guides</Heading>
+            <Heading size="large" level={2}>Research Guides Search</Heading>
 
-            <p className="text">Use to find research resources and help guides created by Library experts (Ann Arbor).</p>
+            <p className="text">Find research resources and help guides created by experts from U-M Library (Ann Arbor).</p>
             <div className="x-spacing layout-flex layout-flex-start">
               <TextInput
                 id="research-guides-search"
-                labelText="Search Research Guides"
+                labelText="Research Guides Search"
                 hideLabel
                 value={libGuideQuery}
                 invalid={libGuideInvalid}
                 invalidText={libGuideInvalidText}
-                placeholder="Find research resources, help guides, and more"
                 onChange={this.handleLibGuideQueryChange}
                 name="q"
               />
