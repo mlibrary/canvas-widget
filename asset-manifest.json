@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.afb95c1d.css",
-  "main.css.map": "static/css/main.afb95c1d.css.map",
-  "main.js": "static/js/main.bf168c8e.js",
-  "main.js.map": "static/js/main.bf168c8e.js.map"
+  "main.css": "/canvas-widget/static/css/main.5a2f29a2.chunk.css",
+  "main.js": "/canvas-widget/static/js/main.060802df.chunk.js",
+  "main.js.map": "/canvas-widget/static/js/main.060802df.chunk.js.map",
+  "static/js/1.c2b16fc4.chunk.js": "/canvas-widget/static/js/1.c2b16fc4.chunk.js",
+  "static/js/1.c2b16fc4.chunk.js.map": "/canvas-widget/static/js/1.c2b16fc4.chunk.js.map",
+  "runtime~main.js": "/canvas-widget/static/js/runtime~main.f4c82cc6.js",
+  "runtime~main.js.map": "/canvas-widget/static/js/runtime~main.f4c82cc6.js.map",
+  "static/css/main.5a2f29a2.chunk.css.map": "/canvas-widget/static/css/main.5a2f29a2.chunk.css.map",
+  "index.html": "/canvas-widget/index.html",
+  "precache-manifest.1a20ee8f33a191a530a18a7f481e1b15.js": "/canvas-widget/precache-manifest.1a20ee8f33a191a530a18a7f481e1b15.js",
+  "service-worker.js": "/canvas-widget/service-worker.js"
 }
