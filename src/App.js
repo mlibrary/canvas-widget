@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
+import Chat from '@umich-lib-ui/chat'
+import Button from '@umich-lib-ui/button'
+import TextInput from '@umich-lib-ui/text-input'
+import Heading from '@umich-lib-ui/heading'
+import VisuallyHidden from '@reach/visually-hidden'
 import Logo from './Logo'
-
 import './index.css'
-import {
-  Heading,
-  Button,
-  TextInput,
-  Chat
-} from 'umich-lib-components-react'
 
 class App extends Component {
   state = {
@@ -71,7 +69,9 @@ class App extends Component {
         </header>
 
         <main role="main" aria-labelledby="library-canvas-widget">
-          <Heading id="library-canvas-widget" size="large" level={1} className="visually-hidden">Library Canvas Widget</Heading>
+          <VisuallyHidden>
+            <Heading id="library-canvas-widget" size="xlarge" level={1}>Library Canvas Widget</Heading>
+          </VisuallyHidden>
 
           <form
             action="https://search.lib.umich.edu/everything"
@@ -80,7 +80,7 @@ class App extends Component {
             role="search"
             onSubmit={this.handleLibrarySearchSubmit}
           >
-            <Heading size="large" level={2}>Library Everything Search</Heading>
+            <Heading size="medium" level={2}>Library Everything Search</Heading>
             <p className="text">See results from the U-M Library catalog, articles, databases, online journals, and the library website.</p>
             <div className="x-spacing layout-flex layout-flex-start">
               <TextInput
@@ -104,7 +104,7 @@ class App extends Component {
             role="search"
             onSubmit={this.handleLibGuideSubmit}
           >
-            <Heading size="large" level={2}>Research Guides Search</Heading>
+            <Heading size="medium" level={2}>Research Guides Search</Heading>
 
             <p className="text">Find research resources and help guides created by experts from U-M Library (Ann Arbor).</p>
             <div className="x-spacing layout-flex layout-flex-start">

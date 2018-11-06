@@ -1,3 +1,12 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.5;
+}
+
 .canvas-widget-app {
   padding: 1rem;
   max-width: 34rem;
@@ -6,8 +15,12 @@
 
 .library-logo-svg {
   display: block;
-  width: 14rem;
   margin-bottom: 1rem;
+  height: 30px;
+}
+
+.layout-flex {
+  display: flex;
 }
 
 @media (min-width: 600px) {
