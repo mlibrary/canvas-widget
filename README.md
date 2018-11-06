@@ -16,8 +16,8 @@ Provide Searching for Library Search and LibGuides within Canvas. Plus a few ext
 
 Then host the static files in the `build` directory where needed.
 
-## Deploy
+## Development deploy
 
 `npm run deploy`
 
-This will deploy to Github pages hosting.
+This will deploy to Github pages hosting at https://mlibrary.github.io/canvas-widget/. **Note**: this is not staging production deployment.
