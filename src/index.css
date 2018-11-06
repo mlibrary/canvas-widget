@@ -48,3 +48,9 @@ html {
 .layout-flex-start {
   align-items: flex-start;
 }
+
+*:focus {
+  outline: 3px solid #FFCB05;
+  outline-offset: 0;
+  transition: outline 0.05s ease-out;
+}
