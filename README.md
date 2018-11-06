@@ -15,3 +15,9 @@ Provide Searching for Library Search and LibGuides within Canvas. Plus a few ext
 `npm run build`
 
 Then host the static files in the `build` directory where needed.
+
+## Deploy
+
+`npm run deploy`
+
+This will deploy to Github pages hosting.

@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://mlibrary.github.io/canvas-widget",
+  "homepage": "https://www.lib.umich.edu/canvas/library-search/",
   "browserslist": [
     ">0.2%",
     "not dead",
